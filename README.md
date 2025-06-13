@@ -11,6 +11,7 @@ People’s moods are often influenced by weather conditions, but there’s rarel
 
 ## Proposed Solution
 This project is designed to help people stay productive even on days when their mood is affected by the weather, which often leads to unproductive habits like endlessly scrolling through social media.
+The solution as follows
 - Collects real-time weather data using an API.
 - Processes the weather to determine a "mood category."
 - Recommends mood-enhancing activities accordingly.
