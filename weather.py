@@ -1,8 +1,9 @@
-#f866071204a94a17a4b53358251106
+import os
+from dotenv import load_dotenv
 import requests
 from mood_logic import get_mood_suggestion
-API_KEY = "f866071204a94a17a4b53358251106" 
-
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
 def get_weather(city):
     url = f"http://api.weatherapi.com/v1/current.json?key={API_KEY}&q={city}"
     response = requests.get(url)
