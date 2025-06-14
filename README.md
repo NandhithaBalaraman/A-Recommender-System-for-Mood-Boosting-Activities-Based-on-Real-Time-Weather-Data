@@ -15,11 +15,10 @@ The solution as follows
 - Collects real-time weather data using an API.
 - Processes the weather to determine a "mood category."
 - Recommends mood-enhancing activities accordingly.
-- Suggests 10–15 activities per weather condition that are:  
+- Suggests activities per weather condition that are:  
   - City-specific (Indian cities assumed)  
   - Fun, unique, and skill-building  
   - Non-harmful and mood uplifting  
-  - Ranging from basic to advanced levels
 - Built using Python and Streamlit for an easy-to-use interface.
 
 
